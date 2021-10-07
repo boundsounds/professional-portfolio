@@ -1,0 +1,108 @@
+.background{
+    /* background-color: rgb(24, 15, 29); */
+    /* background-image: linear-gradient(180deg, rgb(123, 121, 255), rgb(155, 80, 173)); */
+    
+}
+
+.sections{
+    /* background-color:rgb(80, 70, 85); */
+     /* background-image: linear-gradient(180deg, rgb(123, 121, 255), rgb(155, 80, 173)); */
+     background-color: cornsilk;
+    text-align: center;
+    opacity: 90%;
+    
+    
+
+}
+.taLeft{
+   flex-direction: column;
+   
+}
+.taRight{
+    flex-direction: column-reverse;
+}
+div{
+    color: rgb(0, 0, 0);
+}
+.titleFont{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+body{
+    padding: 4%;
+    background-color: lavender;
+    font-family: Ubuntu,
+    "times new roman",
+    times,
+    roman,
+    serif;
+    align-items: center;
+    justify-content: center;
+}
+.titleName{
+    font-size: 70px;
+    
+}
+.projectImage{
+    flex: inherit;
+    width: 300px;
+     
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       text-align: center;
+       padding: 10px 20px;
+    
+}
+
+
+
+
+.logoImage{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+       align-items: center;
+       justify-content: center;
+}
+div{
+    
+}
+button{
+    align-items: center;
+}
+
+h6{
+    font-weight: bold;
+    font-size: 20px;
+}
+.coloredText{
+    color: rgb(110, 78, 255);
+}
+.card-img-top{
+    width: 286px;
+    height: 256px;
+}
+.container{
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    transition: .5s ease;
+    background-color: rgb(110, 78, 255);
+    font-size: 40px;
+}
+.container:hover .overlay {
+    opacity: 90%;
+}
